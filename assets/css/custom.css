@@ -1,0 +1,360 @@
+/* ============================================================
+   MADHURI PATIL — Custom Portfolio Styles
+   ============================================================ */
+
+/* ---------- Badge row ---------- */
+.badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.5rem 0 2rem;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.badge-ai {
+  background: #EEEDFE;
+  color: #3C3489;
+}
+
+.badge-fs {
+  background: #E1F5EE;
+  color: #085041;
+}
+
+.badge-ml {
+  background: #FAEEDA;
+  color: #633806;
+}
+
+.badge-cloud {
+  background: #E6F1FB;
+  color: #0C447C;
+}
+
+/* ---------- Stats row ---------- */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 0 0 2.5rem;
+}
+
+.stat-box {
+  background: #f7f7f5;
+  border: 1px solid #e0e0dc;
+  border-radius: 10px;
+  padding: 18px 12px;
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a18;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #6b6b67;
+  margin-top: 5px;
+}
+
+/* ---------- Section divider ---------- */
+.section-divider {
+  height: 1px;
+  background: #e0e0dc;
+  margin: 2rem 0;
+}
+
+/* ---------- Section heading ---------- */
+.section-heading {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .09em !important;
+  color: #6b6b67 !important;
+  margin: 0 0 1rem !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* ---------- Shared tag pill ---------- */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag {
+  font-size: 11px;
+  padding: 3px 9px;
+  background: #f0f0ec;
+  color: #3a3a38;
+  border-radius: 4px;
+  border: 1px solid #ddddd8;
+  display: inline-block;
+}
+
+/* ---------- Skills grid ---------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.skill-card {
+  background: #ffffff;
+  border: 1px solid #e0e0dc;
+  border-radius: 12px;
+  padding: 14px 15px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.skill-card:hover {
+  border-color: #aaaaaa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card h4 {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .06em !important;
+  color: #6b6b67 !important;
+  margin: 0 0 9px !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* ---------- Projects grid ---------- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin-bottom: 0;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e0e0dc;
+  border-radius: 12px;
+  padding: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  border-color: #aaaaaa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.proj-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.project-card h4 {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  margin: 0 0 6px !important;
+  padding: 0 !important;
+  border: none !important;
+  color: #1a1a18 !important;
+}
+
+.project-card h4 a {
+  color: #1a1a18 !important;
+  text-decoration: none !important;
+}
+
+.project-card h4 a:hover {
+  color: #333 !important;
+  text-decoration: underline !important;
+}
+
+.project-card p {
+  font-size: 12px !important;
+  color: #6b6b67 !important;
+  line-height: 1.55 !important;
+  margin: 0 0 10px !important;
+}
+
+/* ---------- About block ---------- */
+.about-block {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: #f7f7f5;
+  border: 1px solid #e0e0dc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.about-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7F77DD, #1D9E75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.about-avatar-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  flex-shrink: 0;
+  border: 2px solid #e0e0dc;
+}
+
+.about-text p {
+  font-size: 13px !important;
+  color: #3a3a38 !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
+
+.about-text strong {
+  color: #1a1a18 !important;
+}
+
+/* ---------- Experience cards ---------- */
+.exp-entry {
+  background: #ffffff;
+  border: 1px solid #e0e0dc;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s;
+}
+
+.exp-entry:hover {
+  border-color: #aaaaaa;
+}
+
+.exp-role {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a18;
+  margin: 0 0 3px;
+}
+
+.exp-company {
+  font-size: 12px;
+  color: #6b6b67;
+  margin: 0 0 12px;
+}
+
+.exp-entry ul {
+  margin: 0 0 12px 1.2rem;
+  padding: 0;
+}
+
+.exp-entry ul li {
+  font-size: 13px;
+  color: #3a3a38;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+.exp-tech {
+  margin-top: 10px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-block {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Hero profile photo ---------- */
+.hero-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 1.5rem 0 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  flex-shrink: 0;
+}
+
+.hero-profile .badges-row {
+  margin: 0;
+  flex: 1;
+}
+
+/* ---------- Inner page consistent design ---------- */
+/* Make inner pages match home page card styling */
+.layout--single .page__content h2 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: #6b6b67;
+  border-bottom: 1px solid #e0e0dc;
+  padding-bottom: 6px;
+  margin-top: 2rem;
+}
+
+
+/* Hide Feed completely */
+.page__footer-follow li a[href*="feed"] {
+  display: none !important;
+}
+
+.page__footer-follow li a[href*="feed"]+* {
+  display: none !important;
+}
+
+a[href="/feed.xml"],
+a[href*="atom.xml"] {
+  display: none !important;
+}
+
+.page__footer-follow li:last-child {
+  display: none !important;
+}

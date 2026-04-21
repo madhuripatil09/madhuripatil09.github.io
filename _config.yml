@@ -1,0 +1,89 @@
+# Site settings
+title: " "
+email: "patil.madhuri42@gmail.com"
+description: "Java Full Stack Engineer & AI/ML Builder — scalable systems, intelligent applications, and cloud-native solutions."
+github_username: madhuripatil09
+minimal_mistakes_skin: contrast
+search: true
+
+# Build settings
+markdown: kramdown
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone:
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Madhuri Patil"
+  avatar : "assets/images/madhuri.jpg"
+  bio: |
+    Java Full Stack Engineer & AI/ML Builder.
+    M.S. Computer & Information Science, University of Michigan-Dearborn.
+    Building scalable systems and intelligent applications.
+  location: "Westland, MI"
+  email: "patil.madhuri42@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/patil-madhuri"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/madhuripatil09"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:patil.madhuri42@gmail.com"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/MadhuriPatil_Resume.pdf"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/patil-madhuri"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/madhuripatil09"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:patil.madhuri42@gmail.com"
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
