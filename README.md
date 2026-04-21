@@ -2,24 +2,6 @@
 
 Built with [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme.
 
-## Local Development
-
-```bash
-gem install bundler
-bundle install
-bundle exec jekyll serve
-```
-
-Open http://localhost:4000
-
-## Deployment
-
-Push to `main` branch on GitHub — GitHub Pages auto-deploys via the `remote_theme` setting.
-
-## Adding your resume PDF
-
-Place your resume at: `assets/MadhuriPatil_Resume.pdf`
-
 ## Structure
 
 | Path | Purpose |
