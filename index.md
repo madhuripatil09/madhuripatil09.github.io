@@ -30,6 +30,30 @@ title: "Madhuri Patil"
 
 <div class="section-divider"></div>
 
+<p class="section-heading">About Me</p>
+
+<div class="about-block">
+  <!-- <div class="about-avatar">MP</div> -->
+  <img src="/assets/images/madhuri.jpg" alt="Madhuri Patil" class="about-avatar-img" />
+  <div class="about-text">
+    <p>I'm a Java Full Stack Engineer and AI/ML Builder with 4+ years of professional experience crafting scalable enterprise applications and intelligent systems. I hold an M.S. in Computer & Information Science (GPA: 4.0) from the University of Michigan-Dearborn.</p>
+    <p style="margin-top:10px;">My work spans production-grade Java/Spring Boot/React systems at Mahindra & Mahindra to AI research at UMich. I'm particularly passionate about the intersection of AI and full-stack engineering.</p>
+    <div style="margin-bottom:12px; margin-top:10px; padding:10px 14px;" class="exp-entry">
+      <div class="section-heading" style="margin-bottom:6px !important;">Education</div>
+      <div class="exp-role">M.S. Computer and Information Science — GPA: 4.0 &nbsp;·&nbsp; <span style="font-weight:400; color:#6b6b67; font-size:12px;">University of Michigan-Dearborn · Apr 2023 – Mar 2026</span></div>
+      <div class="exp-role">B.E. Electronics and Telecommunication Engineering — GPA: 3.2 &nbsp;·&nbsp; <span style="font-weight:400; color:#6b6b67; font-size:12px;">Savitribai Phule Pune University, India · Aug 2013 – May 2017</span></div>
+    </div>
+    <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+      <a href="/work-experience/" class="btn btn--primary btn--small">Experience</a>
+      <a href="/skills/" class="btn btn--primary btn--small">All Skills</a>
+      <a href="/projects/" class="btn btn--primary btn--small">All Projects</a>
+      <a href="mailto:patil.madhuri42@gmail.com" class="btn btn--inverse btn--small">Contact Me</a>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
 <p class="section-heading">Core Skills</p>
 
 <div class="skills-grid">
@@ -131,27 +155,5 @@ title: "Madhuri Patil"
 </div>
 
 <div class="section-divider"></div>
-
-<p class="section-heading">About Me</p>
-
-<div class="about-block">
-  <!-- <div class="about-avatar">MP</div> -->
-  <img src="/assets/images/madhuri.jpg" alt="Madhuri Patil" class="about-avatar-img" />
-  <div class="about-text">
-    <p>I'm a Java Full Stack Engineer and AI/ML Builder with 4+ years of professional experience crafting scalable enterprise applications and intelligent systems. I hold an M.S. in Computer & Information Science (GPA: 4.0) from the University of Michigan-Dearborn.</p>
-    <p style="margin-top:10px;">My work spans production-grade Java/Spring Boot/React systems at Mahindra & Mahindra to AI research at UMich. I'm particularly passionate about the intersection of AI and full-stack engineering.</p>
-    <div style="margin-bottom:12px; margin-top:10px; padding:10px 14px;" class="exp-entry">
-      <div class="section-heading" style="margin-bottom:6px !important;">Education</div>
-      <div class="exp-role">M.S. Computer and Information Science — GPA: 4.0 &nbsp;·&nbsp; <span style="font-weight:400; color:#6b6b67; font-size:12px;">University of Michigan-Dearborn · Apr 2023 – Mar 2026</span></div>
-      <div class="exp-role">B.E. Electronics and Telecommunication Engineering — GPA: 3.2 &nbsp;·&nbsp; <span style="font-weight:400; color:#6b6b67; font-size:12px;">Savitribai Phule Pune University, India · Aug 2013 – May 2017</span></div>
-    </div>
-    <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
-      <a href="/work-experience/" class="btn btn--primary btn--small">Experience</a>
-      <a href="/skills/" class="btn btn--primary btn--small">All Skills</a>
-      <a href="/projects/" class="btn btn--primary btn--small">All Projects</a>
-      <a href="mailto:patil.madhuri42@gmail.com" class="btn btn--inverse btn--small">Contact Me</a>
-    </div>
-  </div>
-</div>
 
 
